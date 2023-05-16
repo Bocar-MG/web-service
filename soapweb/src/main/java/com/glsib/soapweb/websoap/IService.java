@@ -12,6 +12,7 @@ public interface IService {
     public int  getDivResult(int intA, int intB);
 
     // Pour Consommation API Rest
+    // On a plutot utiliser ici Object comme classe Generic pour pouvoir utiliser le retour de l'api
 
     List<Object> getAllUsers();
     Object AddUser(Object object);
